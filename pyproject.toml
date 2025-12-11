@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nexuscosmos"
-version = "0.3.0"
+version = "0.3.1"
 description = "A powerful, dataset-agnostic Python library for astronomical data acquisition with built-in caching, rate limiting, async support, and progress tracking"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -73,10 +73,10 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/panchanarayansahu/nexuscosmos"
-Documentation = "https://nexuscosmos.readthedocs.io"
-Repository = "https://github.com/panchanarayansahu/nexuscosmos.git"
-Issues = "https://github.com/panchanarayansahu/nexuscosmos/issues"
+Homepage = "https://github.com/TheVishalKumar369/NexusComos"
+Documentation = "https://github.com/TheVishalKumar369/NexusComos#readme"
+Repository = "https://github.com/TheVishalKumar369/NexusComos.git"
+Issues = "https://github.com/TheVishalKumar369/NexusComos/issues"
 
 [tool.setuptools]
 packages = ["nexuscosmos", "nexuscosmos.datasets", "nexuscosmos.datasets.horizons"]
