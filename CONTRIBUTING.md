@@ -6,7 +6,7 @@ Thank you for your interest in contributing to NexusCosmos!
 
 ### Reporting Bugs
 
-1. Check if the bug has already been reported in [Issues](https://github.com/panchanarayansahu/nexuscosmos/issues)
+1. Check if the bug has already been reported in [Issues](https://github.com/TheVishalKumar369/NexusComos/issues)
 2. If not, create a new issue with:
    - A clear, descriptive title
    - Steps to reproduce the behavior
