@@ -53,8 +53,8 @@ For contributing or development:
 
 ```bash
 # Clone the repository
-git clone https://github.com/TheVishalKumar369/NexusComos.git
-cd NexusComos
+git clone https://github.com/TheVishalKumar369/NexusCosmos.git
+cd NexusCosmos
 
 # Create virtual environment
 python -m venv .venv

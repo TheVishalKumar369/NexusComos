@@ -129,7 +129,7 @@ The architecture follows a modular design with base classes that can be extended
 
 # Availability
 
-NexusCosmos is available on PyPI (`pip install nexuscosmos`) and GitHub (https://github.com/TheVishalKumar369/NexusComos). The library is released under the MIT License.
+NexusCosmos is available on PyPI (`pip install nexuscosmos`) and GitHub (https://github.com/TheVishalKumar369/NexusCosmos). The library is released under the MIT License.
 
 # Acknowledgements
 

@@ -74,10 +74,10 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/TheVishalKumar369/NexusComos"
-Documentation = "https://github.com/TheVishalKumar369/NexusComos#readme"
-Repository = "https://github.com/TheVishalKumar369/NexusComos.git"
-Issues = "https://github.com/TheVishalKumar369/NexusComos/issues"
+Homepage = "https://github.com/TheVishalKumar369/NexusCosmos"
+Documentation = "https://github.com/TheVishalKumar369/NexusCosmos#readme"
+Repository = "https://github.com/TheVishalKumar369/NexusCosmos.git"
+Issues = "https://github.com/TheVishalKumar369/NexusCosmos/issues"
 
 [tool.setuptools]
 packages = ["nexuscosmos", "nexuscosmos.datasets", "nexuscosmos.datasets.horizons"]

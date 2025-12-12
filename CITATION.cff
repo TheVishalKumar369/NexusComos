@@ -4,8 +4,8 @@ type: software
 title: "NexusCosmos: A Dataset-Agnostic Astronomical Data Acquisition Library"
 version: 0.3.1
 date-released: 2025-12-11
-url: "https://github.com/TheVishalKumar369/NexusComos"
-repository-code: "https://github.com/TheVishalKumar369/NexusComos"
+url: "https://github.com/TheVishalKumar369/NexusCosmos"
+repository-code: "https://github.com/TheVishalKumar369/NexusCosmos"
 license: MIT
 authors:
   - family-names: "Sahu"
