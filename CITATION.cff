@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "NexusCosmos: A Dataset-Agnostic Astronomical Data Acquisition Library"
+version: 0.3.1
+date-released: 2025-12-11
+url: "https://github.com/TheVishalKumar369/NexusComos"
+repository-code: "https://github.com/TheVishalKumar369/NexusComos"
+license: MIT
+authors:
+  - family-names: "Kumar"
+    given-names: "Vishal"
+    alias: "TheVishalKumar369"
+keywords:
+  - astronomy
+  - data acquisition
+  - ephemeris
+  - orbital mechanics
+  - Python
+  - async
+  - caching
+abstract: >-
+  NexusCosmos is a powerful, dataset-agnostic Python library for 
+  astronomical data acquisition. It provides a unified interface to 
+  fetch data from any REST API with built-in features including 
+  intelligent caching, rate limiting, async support for parallel 
+  requests, progress tracking, and multiple export formats. 
+  Designed for researchers and developers working with astronomical 
+  data sources.
