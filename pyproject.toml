@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nexuscosmos"
-version = "0.3.1"
+version = "0.3.2"
 description = "A powerful, dataset-agnostic Python library for astronomical data acquisition with built-in caching, rate limiting, async support, and progress tracking"
 readme = "README.md"
 requires-python = ">=3.8"
