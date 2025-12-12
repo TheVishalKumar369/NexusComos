@@ -24,7 +24,7 @@ NexusCosmos is a Python library designed to simplify astronomical data acquisiti
 
 # Statement of Need
 
-Astronomical research increasingly relies on programmatic access to remote data services. While excellent domain-specific tools exist—such as Astroquery for accessing astronomical databases—researchers often face challenges when:
+Astronomical research increasingly relies on programmatic access to remote data services. While excellent domain-specific tools exist—such as Astroquery [@astroquery] for accessing astronomical databases—researchers often face challenges when:
 
 1. **Working with multiple data sources**: Each API requires learning different interfaces and handling different response formats.
 2. **Processing large datasets**: Sequential requests to remote services are slow and inefficient.
@@ -89,6 +89,8 @@ data = asyncio.run(fetch_solar_system())
 
 ## Built-in JPL Horizons Support
 
+NexusCosmos includes built-in support for the JPL Horizons system [@jpl_horizons], one of the most widely used ephemeris services:
+
 ```python
 from nexuscosmos.datasets.horizons import HorizonsClient
 
@@ -103,6 +105,8 @@ ephemeris = client.get_ephemeris(
 
 # Comparison with Existing Tools
 
+NexusCosmos complements existing tools like Astroquery [@astroquery] by providing a more flexible, dataset-agnostic approach:
+
 | Feature | NexusCosmos | Astroquery | Requests |
 |---------|-------------|------------|----------|
 | Dataset-agnostic | Yes | No | Yes |
@@ -114,12 +118,12 @@ ephemeris = client.get_ephemeris(
 
 # Implementation
 
-NexusCosmos is implemented in pure Python with minimal dependencies. The core library requires only the `requests` package. Optional features are available through extras:
+NexusCosmos is implemented in pure Python with minimal dependencies. The core library requires only the `requests` package [@requests]. Optional features are available through extras:
 
 - `nexuscosmos[async]` - Async support via `aiohttp`
 - `nexuscosmos[progress]` - Progress bars via `tqdm`
 - `nexuscosmos[pandas]` - DataFrame export via `pandas`
-- `nexuscosmos[astropy]` - Astropy integration
+- `nexuscosmos[astropy]` - Astropy integration [@astropy]
 
 The architecture follows a modular design with base classes that can be extended for specific data sources.
 
@@ -129,6 +133,6 @@ NexusCosmos is available on PyPI (`pip install nexuscosmos`) and GitHub (https:/
 
 # Acknowledgements
 
-We thank the astronomical community for their feedback and the developers of the JPL Horizons system for providing an excellent public API.
+We thank the astronomical community for their feedback and the developers of the JPL Horizons system [@jpl_horizons] for providing an excellent public API.
 
 # References
